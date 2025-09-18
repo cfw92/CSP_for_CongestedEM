@@ -23,7 +23,11 @@ Analyze the collection with the following CLI (bash) commands: \
 python cochannel_uav_detect.py \\
 \
   --capture_id 1 \\
+  \
   --signal_name composite \\
+  \
   --nfft 16384 --overlap 0.5 \\
+  \
   --alpha_start 0 --alpha_stop 1.2e6 --alpha_step 1.0e4 \\
+  \
   --prefix scf_db
