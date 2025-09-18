@@ -21,6 +21,7 @@ python Write_to_MySQL.py
 Analyze the collection with the following CLI (bash) commands: \
 \
 python cochannel_uav_detect.py \\
+\
   --capture_id 1 \\
   --signal_name composite \\
   --nfft 16384 --overlap 0.5 \\
